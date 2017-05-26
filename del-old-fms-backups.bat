@@ -1,5 +1,7 @@
+::delete files that older than max_days
+
 @echo off
-:: set folder path
+:: set filemaker server folder path
 set dump_path="C:\Program Files\FileMaker\FileMaker Server\Data\Backups\5Mins_Backups_Prod\5Minutes-Backups"
 
 :: set min age of files and folders to delete
